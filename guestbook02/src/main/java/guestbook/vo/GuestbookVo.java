@@ -1,4 +1,4 @@
-package guestbook02.vo;
+package guestbook.vo;
 
 public class GuestbookVo {
 	private Long id;
