@@ -17,7 +17,7 @@
 	</properties>
 
 	<dependencies>
-		<!-- jstl -->
+		<!-- jstl/EL -->
 		<dependency>
 			<groupId>jakarta.el</groupId>
 			<artifactId>jakarta.el-api</artifactId>
