@@ -39,4 +39,10 @@ CREATE TABLE IF NOT EXISTS `webdb`.`user` (
 ENGINE = InnoDB;
 
 
+select id, name from user where email='dooly@gmail.com' and password='1234';
 select * from user;
+select name, email, gender from user where id=2;
+
+update user set name=?, password=?, gender=? where email=?;
+update user set name='누우', gender='female' where email='now@gmail.com';
+desc user;
